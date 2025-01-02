@@ -1,12 +1,8 @@
-/* webkit-linear-gradient(45deg, rgb(253, 41, 123), rgb(255, 101, 91))  */
 :root{
-    /* --pri-color: #178582;
-    --sec-color: #bfa181;
-    --main-bg-color: #0a1828;  */
     --pri-color: #66fcf1 ;
     --sec-color: #45a29e;
-    --main-bg-color: #0b0c10;
-    --pri-bg-color: #1f2833;
+    --main-bg-color: #e0e2e8;
+    --pri-bg-color: #b9d1ef;
     --sec-bg-color: #c5c6c7;
 }
 
@@ -32,13 +28,14 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    /* overflow: hidden; */
 }
 
 .nav_logo {
     text-decoration: none;
     color: antiquewhite;
     font-size: 30px;
-    padding: 0 80px;
+    padding: 0 20px;
     font-weight: bold;
 }
 
@@ -55,11 +52,15 @@ body {
     display: flex;
     justify-items: center;
     align-items: center;
-    gap: 50px;
+    gap: 65px;
 }
 
 .nav_link {
     text-decoration: solid;
     color: var(--sec-color);
     font-size: 18px;
+}
+
+.menu_bar{
+    display: none;
 }
