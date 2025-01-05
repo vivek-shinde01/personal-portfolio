@@ -62,5 +62,7 @@ body {
 }
 
 .menu_bar{
+    font-size: 1.6vw;
+    flex-wrap: 800;
     display: none;
 }
