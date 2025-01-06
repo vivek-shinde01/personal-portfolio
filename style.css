@@ -18,7 +18,7 @@ body {
 }
 
 .header{
-    width: 100%;
+    width: 100vw;
     height: 60px;
     background-color: var(--pri-bg-color);
 }
@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 100%;   
 }
 
 .nav_logo {
