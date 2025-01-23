@@ -1,9 +1,10 @@
 :root{
-    --pri-color: #66fcf1 ;
-    --sec-color: #45a29e;
-    --main-bg-color: #e0e2e8;
-    --pri-bg-color: #b9d1ef;
-    --sec-bg-color: #c5c6c7;
+
+    --pri-bg-color:#001514;
+    --sec-color: #440B0A;
+    --main-bg-color: #360D0C;
+    --pri-color: #1B1110;
+    --sec-bg-color: #290F0E; 
 }
 
 * {
