@@ -74,3 +74,33 @@ li a.active-link{
     top: 14px; /* Align vertically within the header */
     right: 20px; /* Align to the right */
 }
+
+/* Responsive Menu */
+@media screen and (max-width: 768px) {
+    .menu_bar {
+        display: block;
+    }
+
+    .nav_list {
+        display: none; /* Hidden by default */
+        flex-direction: column;
+        width: 100%; /* Full width of the screen */
+        background-color: var(--sec-bg-color);
+        position: fixed;
+        top: 60px; /* Positioned below the header */
+        left: 0;
+        z-index: 99;
+        padding: 10px 0;
+    }
+
+    .nav_list.active {
+        display: flex; /* Show the nav list when active */
+    }
+
+    .nav_menu ul li {
+        margin: 10px 0;
+        text-align: center;
+        height: auto; /* Allow the full height of items */
+        padding: 10px 0;
+    }
+}
