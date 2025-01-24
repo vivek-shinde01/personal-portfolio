@@ -52,7 +52,7 @@ body {
 }
 
 li a{
-    font-size: 1.75rem;
+    font-size: 1.65rem;
     font-weight: 500;
     text-decoration: none;
     color: white;
@@ -99,7 +99,7 @@ li a.active-link{
     .nav_menu ul li {
         margin: 10px 0;
         text-align: center;
-        height: auto; /* Allow the full height of items */
+        height: 30px;
         padding: 10px 0;
     }
 }
