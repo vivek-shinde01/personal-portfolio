@@ -2,11 +2,10 @@
 
 :root{
 
-    --pri-bg-color:#001514;
-    --sec-color: #440B0A;
-    --main-bg-color: #360D0C;
-    --pri-color: #1B1110;
-    --sec-bg-color: #290F0E; 
+    --pri-color: #D9B310;
+    --sec-color: #328CC1;
+    --pri-bg-color:#1D2731;
+    --sec-bg-color: #0B3C5D; 
 }
 
 * {
