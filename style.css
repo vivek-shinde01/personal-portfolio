@@ -22,7 +22,7 @@ body {
 
 .header{
     padding: 14px 20px;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -52,8 +52,8 @@ body {
 }
 
 li a{
-    font-size: 1.65rem;
-    font-weight: 500;
+    font-size: 1.45rem;
+    font-weight: 400;
     text-decoration: none;
     color: white;
     transition: .3s;
@@ -72,6 +72,20 @@ li a.active-link{
     position: absolute;
     top: 14px; /* Align vertically within the header */
     right: 20px; /* Align to the right */
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home div {
+    width: 30%;
+}
+
+.rightSection img{
+    width: 80%;
+    margin: 50px 0;
 }
 
 /* Responsive Menu */
