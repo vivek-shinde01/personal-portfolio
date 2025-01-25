@@ -78,6 +78,7 @@ li a.active-link{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 40px 0;
 }
 
 .home > div {
@@ -88,6 +89,10 @@ li a.active-link{
     font-size: 3.3rem;
 }
 
+.leftSection .btn {
+    padding: 12px;
+}
+
 .rightSection img{
     width: 80%;
     margin: 50px 0;
@@ -96,7 +101,10 @@ li a.active-link{
 #element {
     color: var(--pri-color);
 }
-
+footer {
+    background-color: var(--pri-bg-color);
+    height: 180px;
+}
 /* Responsive Menu */
 @media screen and (max-width: 768px) {
     .menu_bar {
