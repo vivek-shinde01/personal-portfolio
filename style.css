@@ -77,15 +77,24 @@ li a.active-link{
 .home {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.home div {
+.home > div {
     width: 30%;
+}
+
+.leftSection {
+    font-size: 3.3rem;
 }
 
 .rightSection img{
     width: 80%;
     margin: 50px 0;
+}
+
+#element {
+    color: var(--pri-color);
 }
 
 /* Responsive Menu */
