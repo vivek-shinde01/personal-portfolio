@@ -101,10 +101,27 @@ li a.active-link{
 #element {
     color: var(--pri-color);
 }
+
 footer {
     background-color: var(--pri-bg-color);
     height: 180px;
 }
+
+.btn {
+    border-radius: 40px;
+    letter-spacing: 1px;
+    border: 1px solid var(--sec-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:var(--sec-bg-color);
+    color: var(--pri-color);
+}
+
+
 /* Responsive Menu */
 @media screen and (max-width: 768px) {
     .menu_bar {
@@ -135,6 +152,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
 
-}
+} */
