@@ -102,11 +102,6 @@ li a.active-link{
     color: var(--pri-color);
 }
 
-footer {
-    background-color: var(--pri-bg-color);
-    height: 180px;
-}
-
 .btn {
     border-radius: 40px;
     letter-spacing: 1px;
@@ -121,6 +116,10 @@ footer {
     color: var(--pri-color);
 }
 
+footer {
+    background-color: var(--pri-bg-color);
+    height: 65px;
+}
 
 /* Responsive Menu */
 @media screen and (max-width: 768px) {
