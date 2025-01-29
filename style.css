@@ -131,11 +131,22 @@ li a.active-link{
     align-self: center;
 }
 
-footer {
-    background-color: var(--pri-bg-color);
-    height: 65px;
+.footer {
+    padding: 20px;
+    background-color: var(--sec-bg-color);
+    text-align: center;
 }
 
+.footer p {
+    color: var(--pri-color);
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.footer p i {
+    color: red;
+    font-size: 1.10rem;
+}
 /* Responsive Menu */
 @media screen and (max-width: 768px) {
     .menu_bar {
@@ -166,6 +177,8 @@ footer {
     }
 }
 
-/* @media screen and (max-width: 375px) {
-
-} */
+@media screen and (max-width: 319px) {
+    * {
+        display: none;
+    }
+} 
