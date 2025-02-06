@@ -137,12 +137,16 @@ li a.active-link{
     background-color: #262626;
     text-align: center;
 }
-
 .footer p {
     color: var(--pri-color);
     letter-spacing: 1px;
     font-weight: 500;
     font-size: 1.3rem;
+    cursor: pointer;
+}
+.footer p a {
+    text-decoration: none;
+    color: var(--pri-color);
 }
 .footer p i {
     color: red;
