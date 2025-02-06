@@ -4,6 +4,7 @@
 
     --pri-color: #D9B310;
     --sec-color: #328CC1;
+    /* --main-bg-color: #1d1b1b; */
     --pri-bg-color:#1D2731;
     --sec-bg-color: #0B3C5D; 
 }
@@ -133,7 +134,7 @@ li a.active-link{
 
 .footer {
     padding: 20px;
-    background-color: var(--sec-bg-color);
+    background-color: #262626;
     text-align: center;
 }
 
