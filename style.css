@@ -136,6 +136,7 @@ li a.active-link{
     padding: 20px;
     background-color: #262626;
     text-align: center;
+    width: 100%;
 }
 .footer p {
     color: var(--pri-color);
