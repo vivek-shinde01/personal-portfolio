@@ -122,14 +122,57 @@ li a.active-link{
     color: var(--pri-color);
 }
 
-.contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1.3fr;
-    gap: 3rem;
+.contact{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.contact-container .contact-box:first-child {
-    align-self: center;
+.contact-container {
+     width: 80%;
+     background: #262626;
+     border-radius: 6px;
+     padding: 20px 60px 40px 40px;
+}
+
+.contact-container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-container .content .left-side{
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+.content .left-side .details{
+    margin: 14px;
+    text-align: center;
+}
+
+.content .left-side .details i{
+    font-size: 30px;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content .left-side .details .detail{
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.contact-container .content .right-side{
+    width: 75%;
+    margin-left: 75px;
 }
 
 .footer {
