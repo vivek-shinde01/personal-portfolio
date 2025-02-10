@@ -295,7 +295,7 @@ li a.active-link{
     }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 239px) {
     * {
         display: none;
     }
