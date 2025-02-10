@@ -185,22 +185,26 @@ li a.active-link{
     background-color: #262626;
     text-align: center;
     width: 100%;
+    /* position: relative; */
+    bottom: 0;
 }
 .footer p {
     color: var(--pri-color);
     letter-spacing: 1px;
     font-weight: 500;
     font-size: 1.3rem;
-    cursor: pointer;
+    margin: 0;
 }
 .footer p a {
     text-decoration: none;
     color: var(--pri-color);
+    transition: color 0.3s ease-in-out;
 }
 .footer p i {
+    font-size: 1.2rem;
     color: red;
-    font-size: 1.10rem;
 }
+
 /* Responsive Menu */
 @media screen and (max-width: 767px) {
     .menu_bar {
@@ -253,6 +257,31 @@ li a.active-link{
         padding: 0.8rem 2rem;
         font-size: 0.9rem;
     }
+    .footer {
+        padding: 15px;
+    }
+
+    .footer p {
+        font-size: 1.1rem;
+    }
+
+    .footer p i {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+
+    .footer p i {
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 1023px) {
@@ -295,7 +324,7 @@ li a.active-link{
     }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 239px) {
     * {
         display: none;
     }
