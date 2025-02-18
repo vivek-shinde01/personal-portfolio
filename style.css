@@ -155,6 +155,15 @@ li a.active-link{
     text-align: left;
 }
 
+.text-container {
+    flex: 1;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    text-indent: 0cqh;
+    color: var(--sec-color);
+    max-width: 900px; /* Increased max-width for text */
+}
+
 /* contact section */
 .contact{
     width: 100%;
