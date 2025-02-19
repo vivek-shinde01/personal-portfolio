@@ -143,7 +143,6 @@ li a.active-link{
     margin-bottom: 20px;
     font-weight: bold;
     color: var(--pri-color);
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .content {
