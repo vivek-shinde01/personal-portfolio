@@ -149,8 +149,13 @@ li a.active-link{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px; 
+    gap: 45px; 
     text-align: left;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
 }
 
 .text-container {
@@ -159,7 +164,8 @@ li a.active-link{
     font-size: 1.1rem;
     text-indent: 0cqh;
     color: var(--sec-color);
-    max-width: 900px;
+    max-width: 800px;
+    text-align: justify;
 }
 
 /* contact section */
@@ -358,6 +364,29 @@ li a.active-link{
 
     .rightSection img {
         max-width: 500px;
+    }
+}
+
+@media (max-width: 900px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .profile-img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .about h1 {
+        font-size: 2rem;
+    }
+
+    .text-container {
+        font-size: 1rem;
+        max-width: 90%; /* Adjusted for smaller screens */
+        text-align: justify;
     }
 }
 
