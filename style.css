@@ -149,7 +149,7 @@ li a.active-link{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 45px; 
+    gap: 80px; 
     text-align: left;
 }
 
@@ -168,7 +168,12 @@ li a.active-link{
     text-align: justify;
 }
 
-/* contact section */
+/***** Skills Section *****/
+.skills{
+    background-color: red;
+}
+
+/* Contact Section */
 .contact {
     width: 100%;
     display: flex;
