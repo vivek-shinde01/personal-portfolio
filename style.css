@@ -2,11 +2,17 @@
 
 :root{
 
-    --pri-color: #D9B310;
+    /* --pri-color: #D9B310;
     --sec-color: #328CC1;
-    /* --main-bg-color: #1d1b1b; */
+     --main-bg-color: #1d1b1b; 
     --pri-bg-color:#1D2731;
-    --sec-bg-color: #0B3C5D; 
+    --sec-bg-color: #0B3C5D;  */
+    --pri-color: #66FCF1;  /* Bright Cyan */
+    --sec-color: #45A29E;  /* Soft Teal */
+    --main-bg-color: #0B0C10; /* Dark Background */
+    --pri-bg-color: #1F2838; /* Darker Blue-Grey */
+    --sec-bg-color: #C5C6C7; /* Light Grey */
+    --accent-color: #C5C6C7; /* Light Grey for text */
 }
 
 * {
@@ -91,6 +97,7 @@ li a.active-link{
 
 .leftSection {
     font-size: 3.3rem;
+    color: var(--accent-color);
 }
 
 .leftSection .btn {
@@ -122,7 +129,7 @@ li a.active-link{
 }
 
 .btn:hover {
-    background-color: var(--sec-bg-color);
+    background-color: var(--pri-bg-color);
     color: var(--pri-color);
 }
 
@@ -268,11 +275,11 @@ li a.active-link{
     letter-spacing: 1px;
     font-weight: 500;
     font-size: 1.3rem;
-    cursor: pointer;
 }
 .footer p a {
     text-decoration: none;
     color: var(--pri-color);
+    cursor: pointer;
 }
 .footer p i {
     color: red;
