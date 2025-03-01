@@ -279,6 +279,7 @@ li a.active-link{
     font-size: 1.10rem;
 }
 /* Responsive Menu */
+/* Mobile (≤ 767px) */
 @media screen and (max-width: 767px) {
     .menu_bar {
         display: block;
@@ -287,17 +288,17 @@ li a.active-link{
     .nav_list {
         display: none; /* Hidden by default */
         flex-direction: column;
-        width: 100%; /* Full width of the screen */
+        width: 100%;
         background-color: var(--sec-bg-color);
         position: fixed;
-        top: 60px; /* Positioned below the header */
+        top: 60px;
         left: 0;
         z-index: 99;
         padding: 10px 0;
     }
 
     .nav_list.active {
-        display: flex; /* Show the nav list when active */
+        display: flex; /* Show when active */
     }
 
     .nav_menu ul li {
@@ -306,6 +307,7 @@ li a.active-link{
         height: 30px;
         padding: 10px 0;
     }
+
     .home {
         flex-direction: column-reverse;
         text-align: center;
@@ -317,7 +319,7 @@ li a.active-link{
     }
 
     .leftSection {
-        font-size: 2rem; /* Reduce text size for better readability */
+        font-size: 2rem;
     }
 
     .rightSection img {
@@ -330,8 +332,30 @@ li a.active-link{
         padding: 0.8rem 2rem;
         font-size: 0.9rem;
     }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .profile-img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .about h1 {
+        font-size: 2rem;
+    }
+
+    .text-container {
+        font-size: 1rem;
+        max-width: 90%;
+        text-align: justify;
+    }
 }
 
+/* Tablet (768px - 1023px) */
 @media (max-width: 1023px) {
     .home {
         flex-direction: column-reverse;
@@ -356,22 +380,7 @@ li a.active-link{
     }
 }
 
-/* 🖥 Large Desktop (≥ 1440px) */
-@media (min-width: 1440px) {
-    .home {
-        max-width: 1200px;
-        margin: 40px auto;
-    }
-
-    .leftSection {
-        font-size: 3.5rem;
-    }
-
-    .rightSection img {
-        max-width: 500px;
-    }
-}
-
+/*  Medium Screens (≤ 900px) */
 @media (max-width: 900px) {
     .content {
         flex-direction: column;
@@ -390,13 +399,30 @@ li a.active-link{
 
     .text-container {
         font-size: 1rem;
-        max-width: 90%; /* Adjusted for smaller screens */
+        max-width: 90%;
         text-align: justify;
     }
 }
 
+/*  Large Desktop (≥ 1440px) */
+@media (min-width: 1440px) {
+    .home {
+        max-width: 1200px;
+        margin: 40px auto;
+    }
+
+    .leftSection {
+        font-size: 3.5rem;
+    }
+
+    .rightSection img {
+        max-width: 500px;
+    }
+}
+
+/* Ultra-Small Screens (≤ 239px) */
 @media screen and (max-width: 239px) {
     * {
         display: none;
     }
-} 
+}
