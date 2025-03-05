@@ -194,6 +194,14 @@ li a.active-link{
     color: var(--pri-color);
 }
 
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+    text-align: left;
+}
+
 /* Contact Section */
 .contact {
     width: 100%;
