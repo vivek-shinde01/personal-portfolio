@@ -4,8 +4,3 @@ const navList = document.querySelector('.nav_list');
 menuBar.addEventListener('click', () => {
     navList.classList.toggle('active');
 });
-
-var typed = new typed('#element', {
-    strings: ['Software Engineer.'],
-    typeSpeed: 70,
-});
