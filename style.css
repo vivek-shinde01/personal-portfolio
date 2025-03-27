@@ -177,13 +177,10 @@ li a.active-link{
 
 /***** Skills Section *****/
 .skills{
-    background-color: rgb(54, 31, 74);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 20px;
-    min-height: 80vh;
+    background: #232425; /* Black */
+    color: #e4e5e8; /* Pewter */
+    padding: 50px 20px;
+    text-align: center;
 }
 
 .skills h1 {
@@ -194,12 +191,47 @@ li a.active-link{
     color: var(--pri-color);
 }
 
+.skills h3 {
+    font-size: 2rem;
+    /* margin-bottom: 20px; */
+    color: #c06c7e;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
 .skills-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap:80px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.skills-box {
+    background: #4b443c; /* Coffee Pot */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     text-align: left;
+    width: 350px;
+    max-width: 90%;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Adjust spacing between skill tags */
+    justify-content: flex-start; /* Aligns items to the left */
+    padding: 10px 0; /* Adds spacing above and below */
+}
+
+.skills-list span {
+    background: #4d0011; /* Burgundy */
+    color: #e4e5e8; /* Pewter */
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 /* Contact Section */
@@ -360,6 +392,15 @@ li a.active-link{
     .btn {
         padding: 0.8rem 2rem;
         font-size: 0.9rem;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-list {
+        justify-content: center; /* Center aligns skills on smaller screens */
     }
 
     .content {
