@@ -254,6 +254,44 @@ li a.active-link{
     white-space: nowrap;
 }
 
+/***** Project Section *****/
+.projects {
+    min-height: 90vh;
+    width: 100%;
+    background-color:#3d1e1e;
+}
+.projects h1{
+    font-size: 2.4rem;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: var(--pri-color);
+    text-align: center;
+    padding: 35px 0;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background: #4b443c; /* Coffee Pot */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    max-width: 90%;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
 /* Contact Section */
 .contact {
     width: 100%;
