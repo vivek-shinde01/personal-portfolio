@@ -196,63 +196,63 @@ li a.active-link{
 } */
 
 /***** Skills Section *****/
-.skills{
-    background: #232425; /* Black */
-    color: #e4e5e8; /* Pewter */
-    padding: 50px 20px;
-    text-align: center;
+.skills {
+    min-height: 70vh;
+    width: 100%;
 }
-
 .skills h1 {
-    font-size: 2.4rem;
-    letter-spacing: 1.2px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    color: var(--pri-color);
-}
-
-.skills h3 {
+    text-align: center;
     font-size: 2rem;
-    /* margin-bottom: 20px; */
-    color: #c06c7e;
-    margin-bottom: 15px;
-    font-size: 1.5rem;
-}
-
-.skills-container {
+    margin-bottom: 4rem;
+    margin-top: 2.5rem;
+    color: white;
+  }
+  
+  .skills-grid {
     display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem; /* Increased gap between cards */
     justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.skills-box {
-    background: #4b443c; /* Coffee Pot */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-    text-align: left;
-    width: 350px;
-    max-width: 90%;
-}
-
-.skills-list {
+  }
+  
+  .skills-box {
+    background-color: #1a1c22;
+    padding: 2rem; /* More padding inside */
+    border-radius: 16px;
+    width: 440px; /* Increased the width */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .skills-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1.2rem;
+  }
+  
+  .skills-header .icon {
+    font-size: 1.5rem;
+  }
+  
+  .skills-box h3 {
+    font-size: 1.3rem;
+    color: #ffffff;
+  }
+  
+  .skills-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px; /* Adjust spacing between skill tags */
-    justify-content: flex-start; /* Aligns items to the left */
-    padding: 10px 0; /* Adds spacing above and below */
-}
-
-.skills-list span {
-    background: #4d0011; /* Burgundy */
-    color: #e4e5e8; /* Pewter */
-    padding: 10px 15px;
-    border-radius: 8px;
-    font-size: 1rem;
-    display: inline-block;
+    gap: 12px;
+  }
+  
+  .skills-list span {
+    background-color: #23252b;
+    padding: 8px 16px; /* Slightly larger pills */
+    border-radius: 999px;
+    font-size: 0.95rem; 
+    color: #e4e5e8;
     white-space: nowrap;
-}
+  }
 
 /***** Project Section *****/
 .projects {
