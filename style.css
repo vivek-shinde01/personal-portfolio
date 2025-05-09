@@ -114,24 +114,6 @@ li a.active-link{
     color: var(--pri-color);
 }
 
-.btn {
-    display: inline-block;
-    padding: 1rem 3rem;
-    background: var(--pri-bg-color);
-    border-radius: 4rem;
-    font-size: 1rem;
-    color: var(--pri-color);
-    font-weight: 500;
-    letter-spacing: 1px;
-    border: 1px solid var(--sec-color);
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-}
-
-.btn:hover {
-    background-color: var(--pri-bg-color);
-    color: var(--pri-color);
-}
 
 /* about section */
 .about {
