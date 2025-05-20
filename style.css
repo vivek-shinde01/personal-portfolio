@@ -122,6 +122,10 @@ li a.active-link{
   font-size: 2rem;
 }
 
+.social-icons a{
+    text-decoration: none;
+}
+
 /* Default color (light gray) */
 .social-icons a i {
   color: #ccc;
@@ -138,8 +142,12 @@ li a.active-link{
   color: white; /* GitHub Black */
 }
 
-.social-icons a:hover i.ri-instagram-fill {
-  color: #E1306C; /* Instagram Pink */
+.social-icons a.instagram-icon:hover i {
+  background-image: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  background-clip: text;              /* Standard */
+  -webkit-background-clip: text;      /* For WebKit browsers */
+  color: transparent;                 /* Fallback */
+  -webkit-text-fill-color: transparent; /* For WebKit */
 }
 
 /* about section */
