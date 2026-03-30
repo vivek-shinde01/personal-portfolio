@@ -1,44 +1,149 @@
-# Personal Portfolio Website (In Progress)  
+# Vivek Shinde — Personal Portfolio Website
 
-This repository contains the ongoing development of my personal portfolio website. It will serve as a platform to showcase my skills, projects, experiences, and more.  
+A clean, animated personal portfolio website built from scratch using pure **HTML**, **CSS**, and **JavaScript** — no frameworks, no build tools. Fully mobile responsive.
 
-## 🚧 Current Status  
+---
 
-- The project is under active development.  
-- Features and sections are being added incrementally.  
+## 🌐 Live Demo
 
-## 🎯 Planned Features  
+> [https://vivekshinde.dev](https://vivekshinde.dev) *(replace with your actual link)*
 
-- **Home**: A welcoming landing page with a brief introduction.  
-- **About Me**: Detailed information about my background and interests.  
-- **Skills**: A showcase of technical and interpersonal skills.  
-- **Projects**: Highlights of my work with live links and source code.
-  
-- **Contact**: Links to my email, LinkedIn, and other platforms.  
+---
 
-## 🛠️ Tools & Technologies  
+## 📸 Preview
 
-- **Frontend**: HTML, CSS, JavaScript.  
-- **Backend**: TBD.  
-- **Hosting**: GitHub Pages, Netlify, or Vercel (TBD).  
+| Desktop | Mobile |
+|---------|--------|
+| ![Desktop Preview](preview-desktop.png) | ![Mobile Preview](preview-mobile.png) |
 
-## 🚀 To-Do  
+---
 
-1. **Design**:  
-   - Finalize the layout and color scheme.  
-   - Create responsive designs for mobile and desktop views.  
-2. **Development**:  
-   - Implement navigation and basic sections.  
-   - Add animations and interactivity.  
-3. **Deployment**:  
-   - Set up hosting for live previews.  
-   - Test across browsers and devices.  
+## ✨ Features
 
-## 💡 Future Enhancements  
+- **Scroll animations** — Elements fade and slide in as you scroll, each firing only once
+- **Hero section** — Animated CSS grid lines, floating particles, glowing orbs, shimmer text effect
+- **Mobile menu** — Compact top dropdown menu with smooth animation, closes automatically on link click
+- **Skills section** — Tag-chip grid with staggered entrance animation
+- **Services cards** — Hover lift effect with gradient reveal underline
+- **Project cards** — Dark themed cards with hover elevation
+- **Contact form** — Fully functional form with success feedback
+- **Social links** — Email, Instagram, GitHub, LinkedIn with branded icons
+- **Resume download** — Direct CV download button in hero and mobile menu
+- **Favicon** — Custom SVG favicon (no external file needed)
+- **Footer** — Heartbeat animation on the ❤ icon
 
-- Add a dark/light mode toggle for better user experience.  
-- Include a testimonials section.  
+---
 
-## 📢 Updates  
+## 🗂️ Project Structure
 
-Check back soon for progress updates and new features!
+```
+portfolio/
+├── index.html       # Main HTML structure
+├── style.css        # All styles, animations, responsive breakpoints
+├── script.js        # Scroll animations, particles, mobile menu, form
+└── resume.pdf       # Your CV (add this file yourself)
+```
+
+---
+
+## 🚀 Getting Started
+
+### Run locally
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/vivekshinde/portfolio.git
+
+# 2. Open in browser
+cd portfolio
+open index.html
+```
+
+No npm, no dependencies, no build step — just open and go.
+
+### Deploy to GitHub Pages
+
+1. Push code to a GitHub repository
+2. Go to **Settings → Pages**
+3. Set source to **main branch / root**
+4. Your site will be live at `https://yourusername.github.io/portfolio`
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|-----------|-------|
+| HTML5 | Semantic structure |
+| CSS3 | Animations, grid, flexbox, responsive design |
+| Vanilla JavaScript | IntersectionObserver, DOM manipulation |
+| Google Fonts | Playfair Display + Inter |
+| Remix Icons | Footer heart icon |
+
+---
+
+## 📁 Sections
+
+| # | Section | Description |
+|---|---------|-------------|
+| 1 | **Hero** | Name, tagline, CTA buttons, resume download |
+| 2 | **About** | Bio, skill pills, brief introduction |
+| 3 | **Services** | Web Dev, App Dev, Meta Ads, SEO |
+| 4 | **Skills** | Frontend, Backend, Tools & DevOps tag grid |
+| 5 | **Projects** | ShopNow, SentimentAI, Harshali Academy |
+| 6 | **Contact** | Social links + contact form |
+
+---
+
+## 🎨 Customisation
+
+To make this portfolio your own, update the following in `index.html`:
+
+```
+Name          →  Search "Alex Sharma" → replace with your name
+Email         →  Search "alex@example.com" → your email
+Instagram     →  Search "@alexsharma_dev" → your handle
+GitHub        →  Search "github.com/alexsharma" → your profile
+LinkedIn      →  Search "linkedin.com/in/alexsharma" → your profile
+Resume        →  Replace resume.pdf with your actual CV file
+Projects      →  Update project titles, descriptions, and links
+Skills        →  Add/remove .sk-tag elements in the skills section
+```
+
+To change the accent color, update this single CSS variable in `style.css`:
+
+```css
+:root {
+  --accent: #16a085;   /* change to any hex color */
+  --gold:   #e8a23c;   /* secondary highlight color */
+}
+```
+
+---
+
+## 📱 Browser Support
+
+| Browser | Support |
+|---------|---------|
+| Chrome 90+ | ✅ Full |
+| Firefox 88+ | ✅ Full |
+| Safari 14+ | ✅ Full |
+| Edge 90+ | ✅ Full |
+| IE | ❌ Not supported |
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgements
+
+- Fonts: [Google Fonts](https://fonts.google.com)
+- Icons: [Remix Icons](https://remixicon.com)
+
+---
+
+<p align="center">Made with ❤️ by <a href="https://github.com/vivekshinde">Vivek Shinde</a></p>
